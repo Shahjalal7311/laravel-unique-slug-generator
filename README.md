@@ -12,6 +12,14 @@ public static function slug_generator($title = null){
 
 ```
 
+### Call form controller
+
+```
+
+$slug = Model::slug_generator($param);
+
+```
+
 ### In app.config 
 
 ## add in providers

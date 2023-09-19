@@ -6,8 +6,8 @@
 ```php
 use Shah\LaravelUniqueSlugGenerator\Facades\UniqueSlugFacade;
 
-public function slug_generator($title = null){
-    return ShahUniqSlug::unique_slug_generate('App\Models\User::class', $title, 'name');
+public static function slug_generator($title = null){
+    return ShahUniqSlug::unique_slug_generate(model::class', $title, 'name');
 }
 
 ```

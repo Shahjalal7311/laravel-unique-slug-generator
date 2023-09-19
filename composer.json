@@ -1,0 +1,37 @@
+{
+    "name": "shah/laravel-unique-slug-generator",
+    "description": "",
+    "keywords": [
+        "laravel",
+        "laravel_unique_slug_generator",
+        "php_laravel",
+        "php"
+    ],
+    "homepage": "https://github.com/Shahjalal7311/laravel-unique-slug-generator",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shah\\LaravelUniqueSlugGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sahahjalal",
+            "email": "shahjalal7311@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shah\\LaravelUniqueSlugGenerator\\UniqueSlugServiceProvider"
+            ],
+            "aliases": {
+                "UniqueSlug": "Shah\\LaravelUniqueSlugGenerator\\UniqueSlugFacade"
+            }
+        }
+    }
+}
